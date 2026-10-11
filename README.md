@@ -48,6 +48,7 @@ EDA_Library/
 - [清单字段与验证规则](docs/catalog-schema.md)
 - [版本、备份与项目复现](docs/versioning.md)
 - [第三方来源与许可](docs/sources-and-licensing.md)
+- [GitHub SSH 配置](docs/github-ssh.md)
 
 ## 官方参考
 
