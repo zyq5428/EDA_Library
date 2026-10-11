@@ -1,0 +1,18 @@
+# 文本文档统一 LF；Cadence 原生数据库禁止文本换行转换
+* text=auto
+*.md text eol=lf
+*.csv text eol=lf
+*.py text eol=lf
+*.yml text eol=lf
+*.olb -text
+*.dra -text
+*.psm -text
+*.pad -text
+*.bsm -text
+*.brd -text
+*.dsn -text
+*.DSN -text
+*.step -text
+*.stp -text
+*.pdf -text
+*.zip -text

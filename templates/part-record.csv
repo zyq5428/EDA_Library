@@ -1,0 +1,2 @@
+Part_ID,Category,Manufacturer,MPN,Description,Value,Parameters,Symbol_Library,Symbol_Name,PCB_Footprint,Footprint_DRA,Footprint_PSM,Padstack_Paths,STEP_Path,Datasheet_URL,Source_URL,License_Notes,Revision,Status,Review_Path,Workspace_Revision,Notes
+IC-0001,Power,,,待填写的实际器件,,,,,,,,,,,,,R01,draft,,,填写后复制到根目录 parts.csv
