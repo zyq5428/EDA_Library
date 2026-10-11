@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : RESC320X250X65L50N.dra                        )
+(    Software Version : 17.4S035                                      )
+(    Date/Time        : Fri Nov 24 16:21:36 2023                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = D:/Cadence_learn/FPX/Footprint
+    Name      = resc320x250x65l50n.psm
+    User      = Administrator
+    Machine   = LTSC-20211101AY
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

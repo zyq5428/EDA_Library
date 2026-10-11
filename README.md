@@ -1,58 +1,64 @@
 # EDA_Library
 
-面向个人硬件开发者的 Cadence 24.1 器件库框架。使用 **OrCAD X Capture CIS 的 Component Explorer 管理完整器件**，使用 PCB Editor / Padstack Editor 编辑物理模型；本仓库保存可移植的库文件、器件索引与检查记录。
+个人使用的 Cadence 24.1 离线器件库。原理图、封装、焊盘和 3D 模型统一存放，不按来源项目划分子库。
 
-当前仅包含框架，尚无已验证的实际器件或原生 Cadence 库文件。目录中的 README 不是可直接加载的器件库。
+当前包含 **LIB_COMMON.OLB 的 61 个原理图符号、117 个可放置封装、447 个焊盘和 42 个 STEP/STP 模型**。共 155 个 DRA、31 个 SSM、12 个 FSM；`parts.csv` 共 246 条 draft，包含已有 143 条草稿、新增 42 条封装记录和 61 条符号记录。封装记录与符号记录是模型索引，不代表 246 个完整采购器件。
 
-## 开始使用
+本次保留 `LIB_COMMON.OLB` 与 FPX 原生文件的名称及字节，未修改符号属性、几何或引脚。47 个符号通过内部同名文本找到唯一封装候选；13 个未找到，1 个涉及同名冲突。候选关联已登记到清单，仍须在 Capture 中确认 `PCB Footprint` 和引脚对应。
 
-1. 克隆本仓库到固定目录，例如 `D:/EDA_Library`。
-2. 按 [Cadence 24.1 配置说明](docs/cadence-24.1-setup.md) 设置封装、焊盘和 STEP 搜索路径。
-3. 按 [第一个器件入库指南](docs/quickstart.md) 建立一个完整器件，关联符号、封装和参数。
-4. 完成 [入库检查表](templates/component-review.md)，记录结果，然后更新 [器件清单](parts.csv)。
-5. 运行 `python scripts/validate_library.py`，提交 Git；如需云端修订管理，再发布到自己的 Cloud Workspace。
+## Windows 使用
 
-检查脚本需要 Python 3.9 或更高版本；Linux / macOS 上命令通常为 `python3 scripts/validate_library.py`。
-
-## 目录
+将整个目录复制到例如 `D:/EDA_Library`。PCB Editor 的库路径增加：
 
 ```text
-EDA_Library/
-├── capture/          # 已入库的 Capture .olb
-├── footprints/       # 已入库的封装 .dra + .psm；初期采用扁平目录
-├── padstacks/        # 已入库的 .pad
-├── step/             # 可选 .step / .stp
-├── incoming/         # 第三方原始资料、待核对模型；不加入正式搜索路径
-├── docs/
-│   ├── components/   # 每个器件的来源、核对和实板验证记录
-│   └── ...           # 配置、命名、入库与版本管理说明
-├── templates/        # 器件记录、检查表、目录分类模板
-├── scripts/          # 无第三方依赖的器件清单检查脚本
-├── parts.csv         # 器件索引；不是可直接加载的 CIS 数据库
-└── .github/workflows/ # 自动检查器件清单和文件关联
+psmpath: D:/EDA_Library/footprints
+padpath: D:/EDA_Library/padstacks
+steppath: D:/EDA_Library/step
 ```
 
-## 管理边界
+Capture 中通过 `Place → Part → Add Library` 添加 `D:/EDA_Library/capture/LIB_COMMON.OLB`。符号的 `PCB Footprint` 使用 [完整封装索引](reports/library-footprints.csv) 中的名称，不带路径和 `.psm`。已有 OLB 未自动改写；清单匹配结果用于核对属性。
 
-- Component Explorer：器件分类、参数、符号与封装关联、器件放置。
-- Git：本地模型与文档的版本、备份和项目版本标签。
-- Cloud Workspace：可选的发布、同步和修订管理；本地 Workspace 不等同于云端修订管理。
-- `parts.csv`：便于审核和迁移的索引。它不会自动同步到 Component Explorer，也不是 `.dbc`；CIS ODBC 需要另行建立数据库和字段映射。
-- 检查脚本只验证 CSV、文件存在性及命名关联，**不能验证焊盘尺寸、引脚电气映射或 Cadence 二进制内容**。
+FPX 的 `SOT23-5` 与已有同名模型内容不同，新版本保存在 `alternatives/sot23-5/`。默认搜索路径使用已有版本；先在 Cadence 中另存为唯一封装名并重新生成 PSM，才能将新版本加入共享库。不要把这两个同名目录同时加入搜索路径。RT9013-33GB 的关联因此暂留空。
 
-## 文档
+## 目录与入口
 
-- [Cadence 24.1 配置](docs/cadence-24.1-setup.md)
-- [第一个器件入库](docs/quickstart.md)
-- [命名与绘图约定](docs/library-conventions.md)
-- [清单字段与验证规则](docs/catalog-schema.md)
-- [版本、备份与项目复现](docs/versioning.md)
-- [第三方来源与许可](docs/sources-and-licensing.md)
-- [GitHub SSH 配置](docs/github-ssh.md)
+| 目录 / 文件 | 用途 |
+| --- | --- |
+| `capture/LIB_COMMON.OLB` | 原始个人原理图器件库 |
+| `footprints/` | DRA、PSM、SSM、FSM |
+| `padstacks/` | PAD 支持文件 |
+| `step/` | 42 个原始 3D 模型 |
+| `projects/Hero.fpx` | Footprint Expert 工程 |
+| `projects/exports/` | 原始生成脚本、参数、批处理、3D 缓存与日志，保留相对目录 |
+| `alternatives/` | 同名冲突的备用模型，不在默认搜索路径中 |
+| [parts.csv](parts.csv) | 246 条草稿索引；不是 CIS 数据库 |
+| [reports/library-footprints.csv](reports/library-footprints.csv) | 当前全部 117 项可放置封装 |
+| [reports/personal-symbols.csv](reports/personal-symbols.csv) | 61 个符号及候选封装、未匹配项 |
+| [reports/personal-issues.csv](reports/personal-issues.csv) | 本次待核对项 |
+| [reports/library-models.csv](reports/library-models.csv) | 当前活动模型的文件大小与 SHA256 |
+| [reports/personal-models.csv](reports/personal-models.csv) | 本次输入到库目录的逐文件对应与 SHA256 |
+| `sources/` | 已有开源模型的许可、BOM 和导出资料 |
 
-## 官方参考
+## 检查与维护
 
-- [OrCAD X 器件库创建与管理](https://www5.cadence.com/library-creation.html)
-- [OrCAD X Capture CIS 24.1 Workspace 管理](https://resources.pcb.cadence.com/orcad-x-data-management-faqs/how-to-create-and-manage-workspaces-in-orcad-x-capture-cis-241)
-- [从 Component Explorer 发布器件](https://community.cadence.com/cadence_technology_forums/pcb-design/f/allegro-x-capture-cis/59099/sharing-a-component-in-the-shared-workspace)
-- [从 PCB 导出封装库](https://community.cadence.com/cadence_technology_forums/pcb-design/f/pcb-design/11515/exporting-saving-footprints-from-brd-file)
+```bash
+python3 scripts/validate_library.py
+python3 -m unittest discover -s scripts -p 'test_*.py' -v
+```
+
+Windows 将 `python3` 换成 `python`。原始输入仍在库外时可重现本次导入：
+
+```bash
+python3 scripts/import_personal.py --olb ../LIB_COMMON.OLB --fpx ../FPX
+```
+
+脚本拒绝覆盖内容不同的已有文件，也拒绝替换已被手工编辑的个人生成记录。已有基础库导入脚本必须使用独立暂存目录 `--root`，不能直接重生成本次整合后的库。生成脚本中的原始 Windows 路径已保留，重新生成封装前应在本机检查并调整；本次未执行这些脚本。
+
+- [导入结果及限制](reports/README.md)
+- [Cadence 路径配置](docs/cadence-24.1-setup.md)
+- [完成一个器件](docs/quickstart.md)
+- [器件清单字段](docs/catalog-schema.md)
+- [来源和许可](sources/README.md)
+- [GitHub SSH](docs/github-ssh.md)
+
+完全离线使用无需 GitHub 或云端 Workspace。Git 仓库及 SSH 配置已保留。

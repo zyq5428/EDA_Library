@@ -17,6 +17,6 @@
 
 在传统 PCB Editor 中打开合法获取的 Allegro `.brd`，使用 `File → Export → Libraries` 导出封装符号与 padstacks 到 `incoming/` 的独立子目录。
 
-先检查导出日志和文件是否完整，再逐个入库。不要直接将所有文件复制到正式库，避免同名焊盘覆盖和项目专用钢网/焊盘修改被误用。旧数据库可能需要升级；保留原文件并在副本上操作。
+先检查导出日志和文件是否完整，再逐个入库。当前库已把本次导出作为 draft 统一整理到模型目录，逐个核对后再升级状态。后续导入需检查同名冲突，避免覆盖不同焊盘或混用项目专用钢网。旧数据库可能需要升级；保留原文件并在副本上操作。
 
 [Cadence 导出说明](https://community.cadence.com/cadence_technology_forums/pcb-design/f/pcb-design/11515/exporting-saving-footprints-from-brd-file)

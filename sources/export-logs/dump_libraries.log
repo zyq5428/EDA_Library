@@ -1,0 +1,1105 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Dump Library Log                                                 )
+(                                                                     )
+(    Software Version : 24.1S008                                      )
+(    Date/Time        : Sun Oct 11 12:29:03 2026                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+*** file: F:/StudyDocuments/DevelopmentBoard/BeagleBadge/BeagleBadge/design/BeagleBadge_V1.0_260826.brd ***
+
+
+
+  *** Creating all device files (see create_devices.log) ***
+
+
+  *** Creating padstacks. ***
+
+  SQR191 being dumped.
+
+  1X1_6MM_REC being dumped.
+
+  SQR67D40_T32 being dumped.
+
+  CIR27D32_N_T3_SM4 being dumped.
+
+  RD33-65 being dumped.
+
+  0_9X2MM_REC being dumped.
+
+  SH_REC_0_6X0_25_CIR0_6 being dumped.
+
+  SLOT1_6X0_7 being dumped.
+
+  0_9X3MM_REC being dumped.
+
+  3X5_5MM_REC being dumped.
+
+  RECT9X23_NPM_NSM being dumped.
+
+  PAD1_1X1_7REC1_8X2_5REC being dumped.
+
+  OBL55X146D28X118_T3 being dumped.
+
+  R110X40 being dumped.
+
+  PAD_TLV7021DPWR_5 being dumped.
+
+  R120X60 being dumped.
+
+  RECT14X13_4S being dumped.
+
+  S_RECT160X80 being dumped.
+
+  PSM_022X065R_SM_B being dumped.
+
+  RECT30X12_NPM_SM4 being dumped.
+
+  PAD1_1C1_6MM being dumped.
+
+  SLOT_2X0_6_PASTE being dumped.
+
+  CIR209D118_T3 being dumped.
+
+  C_0_2904_CIR being dumped.
+
+  SON3X3 being dumped.
+
+  PAD_20X16_NPM_SM4 being dumped.
+
+  RECT39X37_NPM_SM4 being dumped.
+
+  RECT10X30_NPM_NSM being dumped.
+
+  RECT20X7_SM4 being dumped.
+
+  RECT30X8_SM4 being dumped.
+
+  RECT12X8_SM4 being dumped.
+
+  1X1_35MM_REC being dumped.
+
+  VIA16D8 being dumped.
+
+  VIA18D8 being dumped.
+
+  RECT14X8_SM4 being dumped.
+
+  RECT24X7_SM4 being dumped.
+
+  RECT22X9_SM4 being dumped.
+
+  RECT33X8_SM4 being dumped.
+
+  RECT24X8_SM4 being dumped.
+
+  RECT9X15_SM4 being dumped.
+
+  RECT32X28_NPM_NSM being dumped.
+
+  RECT28X8_SM4 being dumped.
+
+  RECT33X28_NPM_NSM being dumped.
+
+  RECT16X48_NPM_NSM being dumped.
+
+  RECT59X8_SM4 being dumped.
+
+  RECT8X59_SM4 being dumped.
+
+  O50X110D100X160 being dumped.
+
+  O50X130D100X180 being dumped.
+
+  OBL47X146D24X82_OFF20-5_T2 being dumped.
+
+  PAD_LM5141_A1 being dumped.
+
+  0_8X1_5MM_OB being dumped.
+
+  RECT69X100_NPM_SM4 being dumped.
+
+  RECT69X102_NPM_SM4 being dumped.
+
+  VIA20D10 being dumped.
+
+  SMD_40C being dumped.
+
+  RECT30X11_SM4 being dumped.
+
+  RECT12X30_SM4 being dumped.
+
+  RECT10X23_SM4 being dumped.
+
+  RECT22X20_SM4 being dumped.
+
+  SLOT_1_2X0_5 being dumped.
+
+  RECT33X10_SM4 being dumped.
+
+  RECT24X10_SM4 being dumped.
+
+  RECT20X14_SM4 being dumped.
+
+  RECT10X24_SM4 being dumped.
+
+  SLOT_1_3X0_5 being dumped.
+
+  RECT14X12_SM4 being dumped.
+
+  RECT32X12_SM4 being dumped.
+
+  RECT33X11_SM4 being dumped.
+
+  RECT12X23_SM4 being dumped.
+
+  RECT30X14_SM4 being dumped.
+
+  RECT11X33_SM4 being dumped.
+
+  RECT12X32_SM4 being dumped.
+
+  RECT26X10_SM4 being dumped.
+
+  RECT33X12_SM4 being dumped.
+
+  RECT14X13_SM4 being dumped.
+
+  CIR27D32_N_T3 being dumped.
+
+  RECT34X12_SM4 being dumped.
+
+  RECT12X25_SM4 being dumped.
+
+  RECT30X16_SM4 being dumped.
+
+  RECT24X14_SM4 being dumped.
+
+  RECT33X14_SM4 being dumped.
+
+  RECT12X62_SM4 being dumped.
+
+  RECT30X53_SM4 being dumped.
+
+  RECT18X12_SM4 being dumped.
+
+  RECT41X43_SM4 being dumped.
+
+  RECT35X22_SM4 being dumped.
+
+  CIR29D34_N_T1 being dumped.
+
+  SLOT_2_6X0_6 being dumped.
+
+  RECT28X12_SM4 being dumped.
+
+  RECT30X37_SM4 being dumped.
+
+  RECT51X16_SM4 being dumped.
+
+  0_89MM_C_NPM being dumped.
+
+  SLOT_1_5X0_9 being dumped.
+
+  RECT16X34_SM4 being dumped.
+
+  RECT16X18_SM2 being dumped.
+
+  RECT45X14_SM4 being dumped.
+
+  SLOT_2_8X0_6 being dumped.
+
+  RECT57X12_SM4 being dumped.
+
+  RECT19X23_SM4 being dumped.
+
+  CIR39D44_N_T2 being dumped.
+
+  CIR57D62_N_T2 being dumped.
+
+  RECT18X51_SM4 being dumped.
+
+  CIR43D48_N_T3 being dumped.
+
+  CIR61D66_N_T3 being dumped.
+
+  S52D36_1 being dumped.
+
+  RECT11X59_SM4 being dumped.
+
+  RECT51X55_SM4 being dumped.
+
+  RECT37X16_SM4 being dumped.
+
+  RECT59X12_SM4 being dumped.
+
+  RECT25X19_SM4 being dumped.
+
+  RECT27X35_SM4 being dumped.
+
+  RECT18X17_SM4 being dumped.
+
+  RECT12X59_SM4 being dumped.
+
+  RECT28X35_SM4 being dumped.
+
+  RECT37X53_SM4 being dumped.
+
+  RECT18X28_SM4 being dumped.
+
+  RECT42X67_SM4 being dumped.
+
+  CIR63D68_N_T3 being dumped.
+
+  RECT43X67_SM4 being dumped.
+
+  RECT18X57_SM4 being dumped.
+
+  RECT57X18_SM4 being dumped.
+
+  RECT39X37_SM4 being dumped.
+
+  0_3MM_C being dumped.
+
+  RECT59X18_SM4 being dumped.
+
+  RECT38X67_SM4 being dumped.
+
+  RECT39X67_SM4 being dumped.
+
+  RECT94X77_SM4 being dumped.
+
+  PAD1_4X2_4CIR being dumped.
+
+  SHP_PTPS6521401_SM4 being dumped.
+
+  RECT69X99_SM4 being dumped.
+
+  PAD1_1SQ1_6MM being dumped.
+
+  SMD1_8X2_2REC being dumped.
+
+  RECT134X217_NPM_SM4 being dumped.
+
+  PAD1_1C1_875MM being dumped.
+
+  SMD1_8X4_6REC being dumped.
+
+  1_1X2_1MM_REC being dumped.
+
+  0_3X1_2MM_REC being dumped.
+
+  1_2X1_3MM_REC being dumped.
+
+  0_3X1_3MM_REC being dumped.
+
+  0_4X1_2MM_REC being dumped.
+
+  0_24X0_7MM_OV being dumped.
+
+  0_3X0_5MM_REC being dumped.
+
+  0_2X0_7MM_REC being dumped.
+
+  0_3X0_6MM_REC being dumped.
+
+  0_6X1_2MM_REC being dumped.
+
+  0_5X1_3MM_REC being dumped.
+
+  2_2X1_4MM_REC being dumped.
+
+  0_3X1_5MM_REC being dumped.
+
+  1_2X1_5MM_REC being dumped.
+
+  RECT_8X12_SM4 being dumped.
+
+  0_3X0_7MM_REC being dumped.
+
+  0_5X0_5MM_REC being dumped.
+
+  2_3X2_3MM_REC being dumped.
+
+  0_3X0_8MM_REC being dumped.
+
+  0_5X1_5MM_REC being dumped.
+
+  1_6X1_4MM_REC being dumped.
+
+  0_6X1_5MM_REC being dumped.
+
+  1_1X3_7MM_REC being dumped.
+
+  1_5X1_5MM_REC being dumped.
+
+  1_2X1_9MM_REC being dumped.
+
+  0_6X1_6MM_REC being dumped.
+
+  2_5X2_5MM_REC being dumped.
+
+  1_6X0_7MM_REC being dumped.
+
+  1_8X1_4MM_REC being dumped.
+
+  0_7X0_7MM_REC being dumped.
+
+  SQR110_SM4_NP being dumped.
+
+  RECT45X106_SM4 being dumped.
+
+  0_9X1_6MM_REC being dumped.
+
+  0_8X0_8MM_REC being dumped.
+
+  RECT85X301_SM4 being dumped.
+
+  0_9X0_8MM_REC being dumped.
+
+  2_4X3_8MM_REC being dumped.
+
+  2_7X2_7MM_REC being dumped.
+
+  3_6X3_6MM_REC being dumped.
+
+  0_8X1_9MM_REC being dumped.
+
+  2_6X5_5MM_REC being dumped.
+
+  1_8X1_8MM_REC being dumped.
+
+  CIR11_S9 being dumped.
+
+  TH_3_73X5_8_C being dumped.
+
+  CIR13_9S being dumped.
+
+  REC_SMD_0R8X1 being dumped.
+
+  0_24MM_C being dumped.
+
+  BALL12-S4 being dumped.
+
+  SHP_PTPS6521401VAFR_1_SM4 being dumped.
+
+  10C being dumped.
+
+  SLOT_1_3X0_6_PASTE being dumped.
+
+  SH_REC_0_6X0_25_CIR0_6_MIRROR being dumped.
+
+  D0R7C1R3_PASTE being dumped.
+
+  CIR17_NP being dumped.
+
+  RECT30X50 being dumped.
+
+  RECT50X30 being dumped.
+
+  RECT40X24 being dumped.
+
+  CIR103D108_N_T3 being dumped.
+
+  CIR121D126_N_T3 being dumped.
+
+  QFN14_19-68_PAD being dumped.
+
+  RECT36X20 being dumped.
+
+  RECT14X24 being dumped.
+
+  RECT22X25 being dumped.
+
+  RECT41X24 being dumped.
+
+  RECT40X70 being dumped.
+
+  RECT19X20 being dumped.
+
+  RECT35X22 being dumped.
+
+  RECT33X24 being dumped.
+
+  RECT53X22 being dumped.
+
+  RECT22X17 being dumped.
+
+  0_4X1_05MM_REC being dumped.
+
+  0_22X1_5MM_REC being dumped.
+
+  RECT61X24 being dumped.
+
+  RECT43X24 being dumped.
+
+  RECT35X14 being dumped.
+
+  RECT30X28 being dumped.
+
+  RECT36X40 being dumped.
+
+  RECT37X40 being dumped.
+
+  RECT45X14 being dumped.
+
+  RECT31X55 being dumped.
+
+  RECT63X14 being dumped.
+
+  RECT40X55 being dumped.
+
+  RECT19X23 being dumped.
+
+  RECT26X61 being dumped.
+
+  RECT43X35 being dumped.
+
+  RECT51X63 being dumped.
+
+  RECT71X43 being dumped.
+
+  0_25X0_6MM_REC being dumped.
+
+  0_4X1_35MM_REC being dumped.
+
+  FID_40X80 being dumped.
+
+  RECT51X55 being dumped.
+
+  RECT26X35 being dumped.
+
+  RECT39X31 being dumped.
+
+  RECT16X18 being dumped.
+
+  RECT45X71 being dumped.
+
+  RECT24X47 being dumped.
+
+  RECT22X67 being dumped.
+
+  1_55X3_1MM_REC being dumped.
+
+  1_15X2_6MM_REC being dumped.
+
+  0_25X0_8MM_REC being dumped.
+
+  RECT31X59 being dumped.
+
+  RECT47X43 being dumped.
+
+  0_4X0_75MM_REC being dumped.
+
+  0_3X0_85MM_REC being dumped.
+
+  RECT55X63 being dumped.
+
+  RECT43X57 being dumped.
+
+  2_3X1_65MM_REC being dumped.
+
+  0_6X1_55MM_REC being dumped.
+
+  0_6X0_65MM_REC being dumped.
+
+  RECT44X75 being dumped.
+
+  RECT48X71 being dumped.
+
+  RECT45X57 being dumped.
+
+  RECT42X69 being dumped.
+
+  RECT47X73 being dumped.
+
+  RECT55X75 being dumped.
+
+  RECT39X91 being dumped.
+
+  RECT71X95 being dumped.
+
+  RECT43X69 being dumped.
+
+  RECT47X57 being dumped.
+
+  RECT39X67 being dumped.
+
+  RECT63X79 being dumped.
+
+  RECT95X65 being dumped.
+
+  RECT47X87 being dumped.
+
+  1_77X1_8MM_REC being dumped.
+
+  RECT93X96 being dumped.
+
+  SQR8_SM4 being dumped.
+
+  SHP_PTPS6521401VAFR_10_SM4 being dumped.
+
+  1_9MM_SQ being dumped.
+
+  SLOT_2_1X0_55_PASTE being dumped.
+
+  SLOT_1_4X0_55_PASTE being dumped.
+
+  CIR10_SM4 being dumped.
+
+  OBL57X91D34X68_T3_SM4 being dumped.
+
+  PAD1_1SQ1_875MM being dumped.
+
+  R53_20_SM being dumped.
+
+  0_8X1_5MM_OB_BOTTOM being dumped.
+
+  0_31X1_05MM_REC being dumped.
+
+  RECT50X152 being dumped.
+
+  RECT50X125 being dumped.
+
+  RECT50X135 being dumped.
+
+  RECT135X50 being dumped.
+
+  RECT50X145 being dumped.
+
+  RECT45X106 being dumped.
+
+  RECT28X123 being dumped.
+
+  0_7X1_016MM_REC being dumped.
+
+  0_35X1_15MM_REC being dumped.
+
+  10RD being dumped.
+
+  RECT111X87 being dumped.
+
+  RECT111X79 being dumped.
+
+  CIR20_NPM being dumped.
+
+  RECT47X126 being dumped.
+
+  RECT39X134 being dumped.
+
+  SQR20_SM4 being dumped.
+
+  CIR30_NPM being dumped.
+
+  11X12_5REC being dumped.
+
+  RECT48X109 being dumped.
+
+  SQR12_SM4 being dumped.
+
+  CIR40_NPM being dumped.
+
+  0_77X1_05MM_REC being dumped.
+
+  RECT165X83 being dumped.
+
+  0_28X0_65MM_REC being dumped.
+
+  1_27X2_54MM_REC being dumped.
+
+  0_762X0_7MM_REC being dumped.
+
+  SQR24_SM4 being dumped.
+
+  0_28X0_85MM_REC being dumped.
+
+  2X2MM_REC being dumped.
+
+  1X3MM_REC being dumped.
+
+  RECT76X256 being dumped.
+
+  2X3MM_REC being dumped.
+
+  0_65X0_95MM_REC being dumped.
+
+  3X3MM_REC being dumped.
+
+  1_36X1_68MM_REC being dumped.
+
+  0_25MM_SQ being dumped.
+
+  3X5MM_REC being dumped.
+
+  SHP_PTPS6521401_2_SM4 being dumped.
+
+  PSM_022X075R_SM being dumped.
+
+  SQR23_PM18_SM19 being dumped.
+
+  63NP being dumped.
+
+  SH_REC_0_42X0_22_MIR being dumped.
+
+  80X135R_40X95SLOT_NEW being dumped.
+
+  RECT57X14_SM53X10_NPM being dumped.
+
+  PAD_TLV7021DPWR being dumped.
+
+  RECT71X14_SM67X10_NPM being dumped.
+
+  TP35S_SMD being dumped.
+
+  C1_6D1_1MM being dumped.
+
+  C1_2D0_7MM being dumped.
+
+  C1_3D0_9MM being dumped.
+
+  C1_9D1_2MM being dumped.
+
+  C1_4D0_9MM being dumped.
+
+  10X50 being dumped.
+
+  C3_7D2_5MM being dumped.
+
+  _4MMX_9MM being dumped.
+
+  FLASH_1_5X1_5MM being dumped.
+
+  0_55X1_016MM_REC being dumped.
+
+  SQR110_SM4 being dumped.
+
+  SQR14_SM10 being dumped.
+
+  PAD_18X12_L_NPM being dumped.
+
+  S1_9D1_2MM being dumped.
+
+  S1_4D0_9MM being dumped.
+
+  PAD_18X12_R_NPM being dumped.
+
+  0_25X0_775MM_REC being dumped.
+
+  OBL45X71D22X48_T3 being dumped.
+
+  SLOT_19X51 being dumped.
+
+  OBL53X73D26X46_T3 being dumped.
+
+  SLOT_19X43 being dumped.
+
+  0_889X1_27MM_REC being dumped.
+
+  SLOT_1_4X0_6_PASTE_1 being dumped.
+
+  OBL47X87D24X62_T2 being dumped.
+
+  CIR10 being dumped.
+
+  SLOT_1_8X0_6_PASTE_1 being dumped.
+
+  CIR13 being dumped.
+
+  CIR14 being dumped.
+
+  CIR71D44_T2 being dumped.
+
+  CIR65D40_T3 being dumped.
+
+  CIR67D40_T2 being dumped.
+
+  CIR71D44_T3 being dumped.
+
+  CIR67D40_T3 being dumped.
+
+  CIR63D36_T3 being dumped.
+
+  SQR164_NPM being dumped.
+
+  C0_65D0_4MM being dumped.
+
+  CIR79D52_T3 being dumped.
+
+  CIR93D66_T3 being dumped.
+
+  C0_8D0_55MM being dumped.
+
+  RECT28X14_SM24X10 being dumped.
+
+  60C40D being dumped.
+
+  SH_REC_0_42X0_22 being dumped.
+
+  NP1R0 being dumped.
+
+  NP1R1 being dumped.
+
+  NP1R2 being dumped.
+
+  NP1R3 being dumped.
+
+  NP1R4 being dumped.
+
+  NP0R6 being dumped.
+
+  NP1R5 being dumped.
+
+  C52D36 being dumped.
+
+  NP0R7 being dumped.
+
+  1_016X1_143MM_REC being dumped.
+
+  NP0R8 being dumped.
+
+  10X15RECNSP being dumped.
+
+  NP0R9 being dumped.
+
+  C60H35 being dumped.
+
+  SQR50 being dumped.
+
+  SQR24 being dumped.
+
+  SQR71D44_T2 being dumped.
+
+  SQR71D44_T3 being dumped.
+
+  SQR67D40_T3 being dumped.
+
+  SLOT_2X0_7 being dumped.
+
+  SQR63D36_T3 being dumped.
+
+  60S40D being dumped.
+
+  SQR39 being dumped.
+
+  0_762X1_524MM_REC being dumped.
+
+  1_016X1_397MM_REC being dumped.
+
+  0_635X0_762MM_REC being dumped.
+
+  0_22X1_5MM_REC_BOTTOM being dumped.
+
+  65RD40 being dumped.
+
+  R12X20 being dumped.
+
+  1_397X1_397MM_REC being dumped.
+
+  30X40R being dumped.
+
+  25X40R being dumped.
+
+  R42X52 being dumped.
+
+  0_889X0_889MM_REC being dumped.
+
+  CIR67D40_T32 being dumped.
+
+  SMD2_4X2REC being dumped.
+
+  R30_80 being dumped.
+
+  SMD1X3_6REC being dumped.
+
+  R64X55 being dumped.
+
+  SMD1X0_9REC being dumped.
+
+  RECT8X24_NPM_SM4 being dumped.
+
+  RECT24X8_NPM_SM4 being dumped.
+
+  45X75R being dumped.
+
+  RECT39X8_NPM_SM4 being dumped.
+
+  C120D92 being dumped.
+
+  SQR111 being dumped.
+
+  SQR140 being dumped.
+
+  SQR222 being dumped.
+
+  NP0R75 being dumped.
+
+  NP0R66 being dumped.
+
+  NP0R58 being dumped.
+
+  0_3X1MM_REC being dumped.
+
+  NP0R95 being dumped.
+
+  1_3X3MM_REC being dumped.
+
+  1X1_5MM_REC being dumped.
+
+
+  *** Creating shape symbols (.dra and .ssm) ***
+
+  sh_rec_0_6x0_25_cir0_6 being dumped.
+
+  sh_rec_0_42x0_22mm_mir being dumped.
+
+  son3x3 being dumped.
+
+  shp_tlv7021dpwr_5 being dumped.
+
+  qfn14_19-68_shp_sm being dumped.
+
+  sh_rec_0_42x0_22mm being dumped.
+
+  shp_lm5141_a1 being dumped.
+
+  shp_ptps6521401_sm4 being dumped.
+
+  shp_tlv7021dpwr_sm being dumped.
+
+  shp_ptps6521401vafr_1_sm4 being dumped.
+
+  sh_rec_0_6x0_25_cir0_6_mirror being dumped.
+
+  shp_ptps6521401vafr_10_sm4 being dumped.
+
+  shp_ptps6521401 being dumped.
+
+  qfn14_19-68_shp being dumped.
+
+  shp_16x20 being dumped.
+
+  shap_rect160x80 being dumped.
+
+  shp_18x12_l_sm being dumped.
+
+  shp_18x12_r_sm being dumped.
+
+  shp_ptps6521401vafr_1 being dumped.
+
+  shp_ptps6521401_1_sm4 being dumped.
+
+  shp_16x20_sm2_1 being dumped.
+
+  shp_tlv7021dpwr being dumped.
+
+  shp_tlv7021dpwr_5_sm being dumped.
+
+  flash_1_5x1_5mm being dumped.
+
+  shp_ptps6521401vafr_10 being dumped.
+
+  shap_rect160x80m being dumped.
+
+  shp_lm5141_a1_sm being dumped.
+
+  shp_ptps6521401_1 being dumped.
+
+  shp_18x12_l being dumped.
+
+  shp_18x12_r being dumped.
+
+
+  *** Creating flash symbols (.dra and .fsm) ***
+
+  thm_od91id75_14spk being dumped.
+
+  thm_od79id63_12spk being dumped.
+
+  thm_od75id59_12spk being dumped.
+
+  thm_od86id66_12spk being dumped.
+
+  thm_od85id65_15spk being dumped.
+
+  thm_rect65x91 being dumped.
+
+  thm_od229id209_25spk being dumped.
+
+  thm_rect77x111 being dumped.
+
+  thm_rect67x107 being dumped.
+
+  thm_rect67x125 being dumped.
+
+  thm_rect67x157 being dumped.
+
+  thm_104id89_16spk being dumped.
+
+
+  *** Creating package symbols (.dra and .psm) ***
+
+  sc70_5 being dumped.
+
+  sot563 being dumped.
+
+  led0603 being dumped.
+
+  qfn24_0d5_3_5x3_5x0_8mm being dumped.
+
+  led0805 being dumped.
+
+  soicbite_16p_1d27_12_7x2_92mm being dumped.
+
+  do_214ac_sma being dumped.
+
+  bat5p_3d1_9_5x4_8x6_6mm being dumped.
+
+  sot23-5 being dumped.
+
+  jst4p_smd_2_0_90d being dumped.
+
+  dck5_2p15x1p4 being dumped.
+
+  fpc22_0d5_15_4x5_25x2mm_0d5_dx_npwb being dumped.
+
+  sod_123 being dumped.
+
+  sod_323 being dumped.
+
+  sod_523 being dumped.
+
+  bga24_39-37_240x310_1 being dumped.
+
+  sot23_6 being dumped.
+
+  vqfn20_0d5_4_5x3_5x0_9mm being dumped.
+
+  jst4p_1d0_6_5x4_35x3_1mm being dumped.
+
+  header15p_2d54_dip_snake being dumped.
+
+  sw8p_1d4_7_5x7_5mm being dumped.
+
+  header8p_2d54_h7_1mm_smd being dumped.
+
+  sot-323-3 being dumped.
+
+  tfbga200_mt53e1g16d1fw_400x570_1-1 being dumped.
+
+  uqfn16_0d4_2_6x1_8x0_55mm being dumped.
+
+  emifil_0402_3p being dumped.
+
+  x2son4_0d48_0_8x0_8x0_4mm being dumped.
+
+  x4-smd-2_5x2_0x1_0mm being dumped.
+
+  wson8_0d5_2x2x0_8mm being dumped.
+
+  bga153_p14_p5_11p5x13 being dumped.
+
+  x4-smd-3_2x2_5x1_0mm being dumped.
+
+  d0402_1a2c being dumped.
+
+  lga96_0d5_16_15x12_15x1_8mm being dumped.
+
+  usb2_0_type_c being dumped.
+
+  soic8_1d27_4_9x3_9mm being dumped.
+
+  tssop16_0d65_5x4_4mm being dumped.
+
+  wson6_0d65_2x2x0_8mm being dumped.
+
+  wlcsp4_0d4_0_77x0_77x0_5mm being dumped.
+
+  qfn24_0d5_4x4mm being dumped.
+
+  htqfp48_0d5_7x7x1d2mm being dumped.
+
+  c0201 being dumped.
+
+  c0402 being dumped.
+
+  d0402 being dumped.
+
+  c0603 being dumped.
+
+  c1206 being dumped.
+
+  micro_sd_st_tf_003a_16_1x14_5mm being dumped.
+
+  c0805 being dumped.
+
+  tp35s_smd being dumped.
+
+  l2012 being dumped.
+
+  l0402 being dumped.
+
+  r0201 being dumped.
+
+  l1008 being dumped.
+
+  l0603 being dumped.
+
+  r0402 being dumped.
+
+  pth_3_73mm_5d8_paste being dumped.
+
+  r0603 being dumped.
+
+  r1206 being dumped.
+
+  led_4p_1_6x1_6mm_rgb being dumped.
+
+  dsbga9_0d5_1_65x1_61x0_625mm being dumped.
+
+  buzzer4p_8_5x8_5x3mm being dumped.
+
+  bga373_0d5_12x12x0_87mm being dumped.
+
+  lga14_0d5_2_5x3x0_86mm being dumped.
+
+  fpc24_0d5_15_5x4_9x2mm being dumped.
+
+  dfn4_0d8_1_5x1_5x0_54mm_rko being dumped.
+
+  sw4_smd_6x6x5mm being dumped.
+
+  sot23 being dumped.
+
+  module12p_1d27_11_6x11x2_95mm being dumped.
+
+  snr2_1d5_1_7x0_8x0_6mm being dumped.
+
+  l2p_4x4x3mm being dumped.
+
+  header2p_2d54_dip being dumped.
+
+  x2_smd_3_2x1_5mm being dumped.
+
+  x4_smd_2_0x1_6mm being dumped.
+
+  sw_4p being dumped.
+
+  sot323 being dumped.
+
+  usb4p_2d0_13_1x13_9x7mm being dumped.
+
+
+
+*********************** Summary *********************
+ERRORs reported:                           0
+
+Number of padstacks dumped:              415
+Number of package symbols dumped:         75
+Number of shape symbols dumped:           30
+Number of flash symbols dumped:           12
+
+Total number of symbols dumped:          117
+*****************************************************
+

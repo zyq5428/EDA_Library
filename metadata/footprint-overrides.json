@@ -1,0 +1,7 @@
+{
+  "r0805": {
+    "Padstack_Paths": ["padstacks/1_016x1_397mm_rec.pad"],
+    "Review_Path": "docs/components/LIB-0143.md",
+    "Notes": "User confirmed reuse of 1_016x1_397mm_rec.pad; native DRA dependency and geometry not independently verified"
+  }
+}

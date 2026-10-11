@@ -1,0 +1,3 @@
+﻿Name,Existing,Alternative,Resolution
+SOT23-5.dra,footprints/sot23-5.dra,alternatives/sot23-5/SOT23-5.dra,preserve existing; rename alternative inside Cadence before shared use
+sot23-5.psm,footprints/sot23-5.psm,alternatives/sot23-5/sot23-5.psm,preserve existing; rename alternative inside Cadence before shared use

@@ -1,7 +1,9 @@
-# PCB 封装
+# PCB 封装与辅助符号
 
-存放检查完成的 `.dra` 和同名 `.psm`，两者配套提交。`.dra` 是可编辑源文件，`.psm` 用于 PCB 放置。使用 PCB Editor 保存源文件后，确认生成文件与最新源文件一致。
+本目录采用扁平布局，已有 76 对 DRA / PSM、30 对 DRA / SSM、12 对 DRA / FSM；其中 `r0805.dra` 和用户补充的 `r0805.psm` 已配套，复用 `1_016x1_397mm_rec.pad`。
 
-初期使用扁平目录，配置 `psmpath` 指向本目录。封装依赖的 `.pad` 放在 `../padstacks`。
+封装清单见 `../reports/footprints.csv`；全部物理文件哈希见 `../reports/models.csv`。SSM / FSM 是辅助符号，不应作为额外器件封装统计。
 
-从 `.brd` 导出的封装先放入 `incoming/`，核对、统一命名后再移入这里。不要在操作系统中仅改文件名就认为完成封装内部重命名；应在 Cadence 中另存并核对。
+将 psmpath 指向本目录，padpath 指向 `../padstacks`。保留原文件名及内部引用；如要改名，应在 Cadence 中更新引用并重新生成编译符号。
+
+本次只整理模型，未验证尺寸、孔径、钢网或逐封装 PAD 依赖。可放置不等于已审核。

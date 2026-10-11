@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : HEADER_RA_4X2_2P54.dra                        )
+(    Software Version : 17.4S035                                      )
+(    Date/Time        : Thu Jul  6 21:21:18 2023                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = F:/Cadence_learn/FPX/Footprint
+    Name      = header_ra_4x2_2p54.psm
+    User      = 59427
+    Machine   = HEROZHOU
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

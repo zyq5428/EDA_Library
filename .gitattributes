@@ -5,14 +5,29 @@
 *.py text eol=lf
 *.yml text eol=lf
 *.olb -text
+*.OLB -text
 *.dra -text
 *.psm -text
 *.pad -text
 *.bsm -text
+*.ssm -text
+*.fsm -text
+*.osm -text
 *.brd -text
 *.dsn -text
 *.DSN -text
 *.step -text
 *.stp -text
+*.STEP -text
+*.STP -text
+*.fpx -text
+projects/exports/** -text
 *.pdf -text
 *.zip -text
+# 原始导出文本保留源字节，便于后续审计
+sources/devices/*.txt -text
+sources/devices.map -text
+sources/BOM.csv -text
+sources/export-logs/* -text
+*.EXP -text
+*.exp -text

@@ -1,7 +1,7 @@
 # 原理图符号库
 
-使用 Capture 新建或维护真实 `.olb` 文件，建议初期使用 `Passives.olb`、`Power.olb`、`MCU.olb`、`Interfaces.olb`、`Connectors.olb`、`Mechanical.olb`。
+`LIB_COMMON.OLB` 是用户创建的原始库，完整复制，共读取到 61 个 Packages 条目；没有修改库内属性或引脚。
 
-这里没有占位 `.olb` 文件。在 Capture 中通过 `Place → Part → Add Library` 添加真实库。Component Explorer 的器件记录应关联其中的实际符号。
+在 Capture 中通过 `Place → Part → Add Library` 添加本文件。`../reports/personal-symbols.csv` 提供符号名称和封装候选，候选仅来自内部同名文本，不能证明 PCB Footprint 属性和引脚映射已验证。47 项有唯一候选，13 项未匹配，1 项涉及 SOT23-5 冲突。
 
-每个符号检查引脚名称、编号、电气类型、隐藏电源脚与多单元设置。符号编号必须匹配目标封装编号；仅引脚数量相同不代表可互换。
+核对符号的 `PCB Footprint`，使用 `../reports/library-footprints.csv` 的名称。随后在独立项目生成网表、导入 PCB 并逐脚核对连接。

@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : QFP33P80_900X900X160L60X37T3-1.dra            )
+(    Software Version : 17.4S035                                      )
+(    Date/Time        : Wed Jun  7 00:31:06 2023                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = F:/Cadence_learn/FPX/Footprint
+    Name      = qfp33p80_900x900x160l60x37t3-1.psm
+    User      = 59427
+    Machine   = HEROZHOU
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

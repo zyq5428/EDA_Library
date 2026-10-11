@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : SOT23-3P95_240X110L53X44N.dra                 )
+(    Software Version : 17.4S035                                      )
+(    Date/Time        : Sat Nov 25 18:22:58 2023                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = F:/Cadence_learn/FPX/Footprint
+    Name      = sot23-3p95_240x110l53x44n.psm
+    User      = 59427
+    Machine   = HEROZHOU
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

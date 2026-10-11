@@ -110,10 +110,10 @@ def validate(root):
                     check_file(value, "padstacks", {".pad"}, f"{label} Padstack_Paths")
         footprint = row["PCB_Footprint"]
         if footprint:
-            if not re.fullmatch(r"MY_[A-Z0-9_]+", footprint):
-                errors.append(f"{label}: PCB_Footprint 应以 MY_ 开头并使用大写字母、数字、下划线")
+            if not re.fullmatch(r"[A-Za-z0-9][A-Za-z0-9_.+\-]*", footprint):
+                errors.append(f"{label}: PCB_Footprint 必须是可移植的封装名称，不带目录或空格")
             for field in ("Footprint_DRA", "Footprint_PSM"):
-                if row[field] and PurePosixPath(row[field]).stem != footprint:
+                if row[field] and PurePosixPath(row[field]).stem.casefold() != footprint.casefold():
                     errors.append(f"{label}: {field} 文件名与 PCB_Footprint 不一致")
 
     # Windows searches are commonly case insensitive: reject ambiguous file names.

@@ -1,0 +1,287 @@
+# Allegro Script
+# File: D:\Cadence_learn\FPX\Footprint\RESC320X160X65L50N.scr
+version 17.4
+
+setwindow pcb
+new
+newdrawfillin "RESC320X160X65L50N.dra" "Package Symbol"
+
+Color
+setwindow Form.cvf_main
+FORM cvf_main class_list Components
+FORM cvf_main all_visible1 YES
+FORM cvf_main all_visible2 YES
+FORM cvf_main all_visible3 YES
+FORM cvf_main class_list Geometry
+FORM cvf_main all_visible5 YES
+FORM cvf_main package_geometry/pin_number/visible NO
+FORM cvf_main class_list Stack-Up
+FORM cvf_main all_visible1 YES
+FORM cvf_main ok
+
+# Drawing Parameters
+QtSignal SPBDesignInitPrompt spbdip_ok_button clicked
+
+generaledit
+prmed
+setwindow Form.prmedit
+FORM prmedit design
+FORM prmedit units Millimeter
+FORM prmedit accuracy 4
+FORM prmedit size Other
+FORM prmedit width 14.5
+FORM prmedit height 12.2
+FORM prmedit Apply
+FORM prmedit x -7.2
+FORM prmedit y -6.1
+FORM prmedit done
+setwindow pcb
+
+# Pin Generation
+add pin
+setwindow Form.mini
+Form mini rect_or_polar Rectangular
+Form mini x_count 1
+Form mini y_count 1
+Form mini rotate_pin 0.0
+FORM mini pad_name r113_177r20
+FORM mini next_pin_number 1
+rotate
+iangle 180
+FORM mini pintype_mechanical NO
+FORM mini offsetx 0
+FORM mini offsety 0
+setwindow pcb
+pick -1.47 0
+setwindow Form.mini
+iangle -180
+setwindow pcb
+pick 1.47 0
+done
+
+# Graphics
+set addline_nomerge
+
+add line
+setwindow Form.mini
+FORM mini lock_direction Off
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass DISPLAY_TOP
+FORM mini line_width 0.025
+setwindow pcb
+pick 1.1 -0.8
+pick 1.1 0.8
+pick 1.6 0.8
+pick 1.6 -0.8
+pick 1.1 -0.8
+done
+
+add line
+setwindow Form.mini
+FORM mini lock_direction Off
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass DISPLAY_TOP
+FORM mini line_width 0.025
+setwindow pcb
+pick -1.1 0.8
+pick -1.1 -0.8
+pick -1.6 -0.8
+pick -1.6 0.8
+pick -1.1 0.8
+done
+
+shape add
+setwindow Form.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass PLACE_BOUND_TOP
+FORM mini dyns_fill_type Static solid
+FORM mini dyns_grid None
+FORM mini dyns_lock_mode Line
+setwindow pcb
+pick -2.236 -1.085
+pick -2.236 1.085
+pick 2.236 1.085
+pick 2.236 -1.085
+pick -2.236 -1.085
+done
+
+shape add
+setwindow Form.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass DFA_BOUND_TOP
+FORM mini dyns_fill_type Static solid
+FORM mini dyns_grid None
+FORM mini dyns_lock_mode Line
+setwindow pcb
+pick -2.236 -1.085
+pick -2.236 1.085
+pick 2.236 1.085
+pick 2.236 -1.085
+pick -2.236 -1.085
+done
+
+add line
+setwindow Form.mini
+FORM mini lock_direction Off
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass ASSEMBLY_TOP
+FORM mini line_width 0.12
+setwindow pcb
+pick -1.675 -0.875
+pick -1.675 0.875
+pick 1.675 0.875
+pick 1.675 -0.875
+pick -1.675 -0.875
+done
+
+add line
+setwindow Form.mini
+FORM mini lock_direction Off
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass DISPLAY_TOP
+FORM mini line_width 0.025
+setwindow pcb
+pick -1.6 -0.8
+pick -1.6 0.8
+pick 1.6 0.8
+pick 1.6 -0.8
+pick -1.6 -0.8
+done
+
+add line
+setwindow Form.mini
+FORM mini lock_direction Off
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass SILKSCREEN_TOP
+FORM mini line_width 0.12
+setwindow pcb
+pick -0.724 0.935
+pick 0.724 0.935
+done
+
+add line
+setwindow Form.mini
+FORM mini lock_direction Off
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass SILKSCREEN_TOP
+FORM mini line_width 0.12
+setwindow pcb
+pick -0.724 -0.935
+pick 0.724 -0.935
+done
+
+add circle
+setwindow Form.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass PLACE_BOUND_TOP
+FORM mini line_width 0.05
+setwindow pcb
+pick 0 0
+pick 0.25 0
+done
+
+add line
+setwindow Form.mini
+FORM mini lock_direction Off
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass PLACE_BOUND_TOP
+FORM mini line_width 0.05
+setwindow pcb
+pick 0.35 0
+pick -0.35 0
+done
+
+add line
+setwindow Form.mini
+FORM mini lock_direction Off
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass PLACE_BOUND_TOP
+FORM mini line_width 0.05
+setwindow pcb
+pick 0 0.35
+pick 0 -0.35
+done
+
+unset addline_nomerge
+
+# Attributes
+setwindow pcb
+package_height
+pick grid 0 0
+setwindow Form.mini
+FORM mini height_max 0.65mm
+setwindow pcb
+done
+
+define property
+setwindow Form.dpr_select
+FORM dpr_select name DESCRIPTION
+setwindow Form.dpr_define
+FORM dpr_define shapes_elem YES
+FORM dpr_define symbols_elem YES
+FORM dpr_define data_type STRING
+FORM dpr_define apply
+setwindow Form.dpr_select
+FORM dpr_select done
+
+property edit
+setwindow Form.find
+FORM find name_type Drawing
+FORM find find_by_name
+setwindow Form.findname
+FORM findname objlist 'Drawing Select'
+FORM findname done
+setwindow Form.editprop1
+FORM editprop1 properties Description
+setwindow Form.editprop2
+FORM editprop2 Description ele_prop_value "Resistor, Chip; 3.20 mm L X 1.60 mm W X 0.65 mm H body"
+setwindow Form.editprop1
+FORM editprop1 done
+
+# Labels
+Label refdes
+setwindow Form.mini
+FORM mini text_block 3
+FORM mini angle 0
+FORM mini mirror NO
+FORM mini text_justification Center
+FORM mini class REF DES
+FORM mini subclass ASSEMBLY_TOP
+setwindow pcb
+pick 0 0
+Text "REF"
+done
+setwindow pcb
+
+Label refdes
+setwindow Form.mini
+FORM mini text_block 3
+FORM mini angle 0
+FORM mini mirror NO
+FORM mini text_justification Center
+FORM mini class REF DES
+FORM mini subclass SILKSCREEN_TOP
+setwindow pcb
+pick 0 0
+Text "REF"
+done
+setwindow pcb
+
+# 3D STEP Model Placement
+setwindow pcb
+generaledit
+step pkg map
+setwindow Form.pkgmap3d
+FORM pkgmap3d stplist RESC320X160X65L50.step
+FORM pkgmap3d offset_x 0
+FORM pkgmap3d offset_y 0
+FORM pkgmap3d offset_z 0
+FORM pkgmap3d save_current
+FORM pkgmap3d done
+setwindow pcb
+generaledit
+
+zoom fit
+save
+exit
+# END

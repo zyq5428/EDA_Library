@@ -1,0 +1,29 @@
+{
+  "source_url": "https://github.com/beagleboard/BeagleBadge",
+  "source_commit": "913d7402e97a5b6f7b6fb2332bcc9b7b52c6a5e1",
+  "source_license": "CC-BY-SA-4.0; actual design/LICENSE preserved",
+  "bom_sha256": "80eea57b08dda30b745b95dfe37afd3d0e19b45126073b8f42793cc8802d4aec",
+  "counts": {
+    "native_types": {
+      ".pad": 415,
+      ".dra": 118,
+      ".psm": 76,
+      ".ssm": 30,
+      ".fsm": 12
+    },
+    "device_exports": 161,
+    "pin_mapping_rows": 1574,
+    "draft_records": 143,
+    "footprints": 76,
+    "bom_rows": 150,
+    "bom_scopes": {
+      "non_pcb": 3,
+      "main_board": 130,
+      "subassembly": 16,
+      "alternative": 1
+    }
+  },
+  "pending": [],
+  "OLB_present": false,
+  "geometry_modified": false
+}

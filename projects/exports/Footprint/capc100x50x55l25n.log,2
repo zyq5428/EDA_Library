@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : CAPC100X50X55L25N.dra                         )
+(    Software Version : 17.4S035                                      )
+(    Date/Time        : Fri Nov 24 10:51:48 2023                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = D:/Cadence_learn/FPX/Footprint
+    Name      = capc100x50x55l25n.psm
+    User      = Administrator
+    Machine   = LTSC-20211101AY
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

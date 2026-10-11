@@ -18,3 +18,5 @@ jobs:
           python-version: '3.12'
       - name: Check catalog and referenced files
         run: python scripts/validate_library.py
+      - name: Check device export parser
+        run: python -m unittest discover -s scripts -p 'test_*.py' -v

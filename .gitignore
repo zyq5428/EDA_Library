@@ -25,3 +25,7 @@ __pycache__/
 # 原始第三方资料默认只在本地暂存；确认许可后可有选择地添加
 incoming/*
 !incoming/README.md
+
+# 已审核保留的原始导出日志是来源记录
+!sources/export-logs/*
+!projects/exports/**

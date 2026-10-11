@@ -1,0 +1,9 @@
+(Device File: SOT23-5)
+
+PACKAGE SOT23-5
+CLASS IC
+PINCOUNT 5
+PINORDER SOT23-5 '1' '2' '3' '4' '5' 
+FUNCTION g1 SOT23-5 '1' '2' '3' '4' '5' 
+
+END

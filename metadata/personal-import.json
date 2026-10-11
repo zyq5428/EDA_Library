@@ -1,0 +1,31 @@
+{
+  "input_olb_sha256": "7878a4af084049faaf45ca129e6cca894c762f4ea57b98d97bd39c952e82be2f",
+  "personal_symbols": 61,
+  "fpx_psm": 42,
+  "fpx_dra": 38,
+  "fpx_pad": 32,
+  "3d_models": 42,
+  "active_added_psm": 41,
+  "conflicting_footprints": [
+    "sot23-5"
+  ],
+  "symbol_candidates_matched": 47,
+  "catalog_rows": 246,
+  "generated_rows": 103,
+  "geometry_modified": false,
+  "OLB_modified": false,
+  "issues": {
+    "missing_script_step:CAPC100X50X56L25-LQ.step": 1,
+    "missing_dra": 5,
+    "missing_script_step:CAPC100X50X70L22-LQ.step": 1,
+    "missing_script_step:DIODFN2_100X60X50L25X50.step": 1,
+    "missing_script_step:HDRRA8W64P254_4X2_1016X254H556.step": 1,
+    "generation_script_missing": 1,
+    "missing_script_step:LEDC160X80X45L30.step": 1,
+    "missing_script_step:LEDC160X80X60L30.step": 1,
+    "missing_script_pad:r116_181r20": 1,
+    "same_name_different_geometry": 1,
+    "footprint_reference_unresolved": 13,
+    "same_name_footprint_conflict": 1
+  }
+}
