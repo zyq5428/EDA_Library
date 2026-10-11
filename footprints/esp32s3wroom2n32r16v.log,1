@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : ESP32S3WROOM2N32R16V.dra                      )
+(    Software Version : 24.1S008                                      )
+(    Date/Time        : Sun Oct 11 23:35:38 2026                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = D:/Git/EDA_Library/footprints
+    Name      = esp32s3wroom2n32r16v.psm
+    User      = 59427
+    Machine   = HEROZHOU
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+
